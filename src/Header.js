@@ -8,10 +8,11 @@ function Header() {
       <h1>Hello</h1>
 
         <div classname="header__left">
-                <img src=''alt=""/>
+                <img src="linkedin.png"
+                alt=""/>
 
                 <div classname="header__search">
-                    <SearchIcon />
+                    <SearchIcon /> 
                     <input type="text"/>
 
                 </div>

@@ -33,7 +33,7 @@ function Header() {
               <HeaderOption Icon={BusinessCenterIcon}title='Jobs'/>
               <HeaderOption Icon={ChatIcon}title='Messaging'/>
               <HeaderOption Icon={NotificationsIcon}title='Notifications'/>
-              <HeaderOption avatar="src/logo512.png" alt="Me"/>
+              <HeaderOption avatar="src/logo512.png" alt="me"/>
 
           </div>
         </div>

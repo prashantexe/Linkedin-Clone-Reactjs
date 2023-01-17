@@ -5,18 +5,12 @@ import Header from "./Header";
 function App() {
   return (
     <div className="App">
-      {/* Header */}
       <Header />
 
       {/* App Body */}
-
-
-    {/* Sidebar */}
-
-
-    {/* Feed */}
-
-    {/* Widgets */}
+      <div className='app__body'>
+        <Sidebar />
+      </div>
 
     </div>
   );

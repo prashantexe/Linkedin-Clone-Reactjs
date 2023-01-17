@@ -5,6 +5,7 @@
     border-radius: 10px;
     text-align: center;
     height: fit-content;
+    line-height: 1em;
 }
 
 .sidebar__avatar{
@@ -73,4 +74,25 @@
     margin-top: 10px;
 }
 
+.sidebar__recentItems{
+    display: flex;
+    font-size: 13px;
+    color: gray;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 5px;
+}
 
+.sidebar__bottom > p {
+    font-size: 13px;
+    padding-bottom: 10px;
+
+}
+
+.sidebar__recentItems:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+}

@@ -1,8 +1,8 @@
-import { Avatar } from "@mui/icons-material"
-import React from 'react';
+import { Avatar } from '@mui/material';
+import React from "react";
 import "./Post.css";
 
-function Post({name, description, message, photoUrl}) {
+function Post({ name, description, message, photoUrl }) {
   return (
     <div className="post">
         <div className="post__header">
@@ -12,11 +12,12 @@ function Post({name, description, message, photoUrl}) {
                 <p>Description</p>
             </div>
         </div>
+
       <div className="post__body">
         <p>Message goes here</p>
       </div>
     </div>
-  )
+  );
 }
 
-export default Post
+export default Post;

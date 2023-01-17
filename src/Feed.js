@@ -6,6 +6,7 @@ import ImageIcon from '@mui/icons-material/Image';
 import SubscriptionsIcon from '@mui/icons-material/Subscriptions';
 import EventNoteIcon from '@mui/icons-material/EventNote';
 import NewspaperIcon from '@mui/icons-material/Newspaper';
+import Post from "./Post";
 
 function Feed() {
   return (
@@ -27,7 +28,11 @@ function Feed() {
             </div>
         </div>
 
-        
+        <Post 
+        name='D Prashant'
+        description = 'This is a test'
+        message='WOW THis worked!!' />
+     
     </div>
   )
 }

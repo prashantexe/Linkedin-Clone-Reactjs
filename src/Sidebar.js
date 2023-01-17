@@ -8,7 +8,7 @@ function Sidebar() {
         <div className="sidebar__top">
             
             <img src="" alt= "" />
-            <Avatar />
+            <Avatar className="sidebar__avatar"/>
             <h2>D Prashant</h2>
             <h4>prashantd049@gmail.com</h4>
         </div>

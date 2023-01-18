@@ -5,6 +5,7 @@
   align-items: center;
   margin: 0px;
   padding: 0px;
+  flex: 1px;
   }
 .app__body{
   display: flex;

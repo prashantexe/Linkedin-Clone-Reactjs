@@ -36,7 +36,7 @@ function Feed() {
 
             db.collection("posts").add({
                 name: "D Prashant",
-                description: "This the test",
+                description: "Currently Learning Reactjs!!",
                 message: input,
                 photoUrl:"",
                 timestamp: firebase.firestore.FieldValue.serverTimestamp(),

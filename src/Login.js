@@ -4,7 +4,12 @@ import "./Login.css";
 function Login() {
 
     const register = () => {};
-    const logintoApp = () => {};
+    const logintoApp = () => {
+        
+
+
+
+    };
   return (
     <div className ="login">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/1200px-LinkedIn_Logo.svg.png" alt="" />
@@ -24,7 +29,7 @@ function Login() {
 
     </form>
 
-    <p> Not a member??
+    <p> Not a member?? {" "}
         <span className ="login__register" onClick={register}>Register Now!!</span>
     </p>
      </div>

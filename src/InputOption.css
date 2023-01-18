@@ -1,9 +1,9 @@
 .inputOption{
     display: flex;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 0px;
     color: gray;
-    padding: 10px;
+    padding: 8px;
     cursor: pointer;
 }
 .inputOption:hover{

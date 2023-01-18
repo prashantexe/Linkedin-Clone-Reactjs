@@ -4,6 +4,7 @@ import "./Login.css";
 function Login() {
 
     const register = () => {};
+    const logintoApp = () => {};
   return (
     <div className ="login">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/1200px-LinkedIn_Logo.svg.png" alt="" />
@@ -19,7 +20,7 @@ function Login() {
         type="email" />
         <input placeholder="Password"
         type="password" />
-        <button>Sign In</button>
+        <button type="submit" onClick={logintoApp}>Sign In</button>
 
     </form>
 

@@ -10,6 +10,8 @@ import Post from "./Post";
 import{ db } from "./firebase";
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
+import 'firebase/compat/auth';
+
 
 function Feed() {
         const[input, setInput]= useState('');
@@ -17,7 +19,7 @@ function Feed() {
 
 
         useEffect(() => {
-            db.collection("posts").onSnapshot((snapshot)  => 
+            db.collection("posts").onSnapshot((snapshot)=> 
                 setPosts(
                     snapshot.docs.map((doc) => ({
                             id: doc.id,

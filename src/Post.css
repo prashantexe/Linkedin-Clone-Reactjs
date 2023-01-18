@@ -1,9 +1,9 @@
 .post{
     background-color: white;
     padding: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     border-radius: 5px;
-    margin: 0px;
+    margin: 10px;
 }
 .post__header{
     display: flex;
@@ -24,7 +24,7 @@
 }
 .post__body{
     overflow-wrap: anywhere;
-    margin-top: 20px;    
+    margin-top: 20px; 
 }
 .post__info > h2{
 font-size: 15px;

@@ -36,7 +36,13 @@
     border-radius: 5px;
 }
 
-.login
+.login__register{
+    color: #0177b7;
+    cursor: pointer;
+}
+.login > p{
+    margin-top: 20px;
+}
 
 
 

@@ -4,7 +4,7 @@
     display: flex;
     background-color: white;
     justify-content: space-evenly;
-    border-bottom: 0.2px solid lightgray;
+    border-bottom: 0.2 px solid lightgray;
     padding-top: 10px;
     padding-bottom: 0px;
     width: 100%;

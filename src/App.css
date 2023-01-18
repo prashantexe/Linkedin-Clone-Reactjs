@@ -8,4 +8,5 @@
   }
 .app__body{
   display: flex;
+  margin: 0px;
 }

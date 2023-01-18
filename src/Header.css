@@ -6,7 +6,7 @@
     justify-content: space-evenly;
     border-bottom: 0.2px solid lightgray;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     width: 100%;
     z-index: 999;
 }

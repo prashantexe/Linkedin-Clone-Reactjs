@@ -2,9 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 20px;
-    color: gray;
+    margin-right: 25px;
+    color: rgb(46, 45, 45);
     cursor: pointer;
+
+    
 }
 
 .headerOption:hover{

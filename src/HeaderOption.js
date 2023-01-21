@@ -2,9 +2,9 @@ import React from 'react'
 import "C:/Users/prash/OneDrive/Desktop/linkedin-clone/src/HeaderOption.css";
 
 
-function HeaderOption({avatar, Icon, title}) {
+function HeaderOption({avatar, Icon, title, onClick}) {
   return ( 
-    <div className="headerOption">
+    <div  onClick={onClick} className="headerOption">
         {Icon && <Icon className="headerOption__icon" />}
         {avatar &&
         <avatar className="headerOption__icon" src={avatar} />}

@@ -37,13 +37,15 @@ function App() {
     <div className="app">
       <Header />
 
+    {!user ? (
+      <Login />
+    ): (
+
       <div className='app__body'>
         <Sidebar />
-        {/* Sidebar */}
         <Feed />
-        {/* Feed */}
       </div>
-    
+    )}
     </div>
   );
 }

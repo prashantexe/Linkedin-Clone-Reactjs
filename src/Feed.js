@@ -11,9 +11,11 @@ import{ db } from "./firebase";
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
 import 'firebase/compat/auth';
-
+import {useSelector} from "react-redux";
+import { selectUser} from "./features/counter/userSlice";
 
 function Feed() {
+        const user = useSelector(selectUser);
         const[input, setInput]= useState('');
         const[posts, setPosts]= useState([]);
 
@@ -35,10 +37,10 @@ function Feed() {
             e.preventDefault();
 
             db.collection("posts").add({
-                name: "D Prashant",
-                description: "Currently Learning Reactjs!!",
+                name: user.display,
+                description: user.email,
                 message: input,
-                photoUrl:"",
+                photoUrl: user.photoUrl || "",
                 timestamp: firebase.firestore.FieldValue.serverTimestamp(),
             });
 

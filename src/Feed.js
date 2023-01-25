@@ -81,6 +81,7 @@ function Feed() {
         />   
         ))}
         </FlipMove>
+        {/* Window */}
     </div>
   );
 }
